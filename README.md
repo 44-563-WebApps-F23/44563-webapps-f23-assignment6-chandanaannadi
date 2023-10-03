@@ -6,4 +6,4 @@ Introduction to Java Script and DOM
 
 [Tips](https://44-563-webapps-f23.github.io/44563-webapps-f23-assignment6-chandanaannadi/tips.html)
 
-[Cruise](https://44-563-webapps-f23.github.io/44563-webapps-f23-assignment6-chandanaannadi/crusie.html)
+[Cruise](https://44-563-webapps-f23.github.io/44563-webapps-f23-assignment6-chandanaannadi/cruise.html)
