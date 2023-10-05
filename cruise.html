@@ -54,7 +54,7 @@
         <br>
         <input type="button" class="button1" value="Select a Crusie" onclick="selectCrusie()">
         <br>
-        <div id="result"></div>
+        <div id="result">Text will be replaced..</div>
     </form>
     <form id="textInputForm">
         <div class="form-group">
@@ -67,6 +67,7 @@
         </div>
         <input type="button" class="button2" value="Update the Crusie" onclick="updateCrusie()">
     </form>
+    <div id="resultTwo">Text will be replaced for pricing..</div>
 
     <script>
         var my_crusie = {};
@@ -87,13 +88,14 @@
 
 
         function updateCrusie() {
+            my_crusie={};
             var days = document.getElementById("daysInput").value;
             var price = document.getElementById("priceInput").value;
 
             my_crusie.days = days;
             my_crusie.price = price;
 
-            var resultElement = document.getElementById("result");
+            var resultElement = document.getElementById("resultTwo");
             resultElement.innerHTML = JSON.stringify(my_crusie);
         }
     </script>
