@@ -7,33 +7,6 @@
     <title>Cruise Selection</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-    <style>
-        .button1{
-            background-color:darkgreen;
-            border: none;
-            color: white;
-            padding: 10px 10px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 6px 2px;
-            cursor: pointer;
-        }
-
-        .button2{
-            background-color:darkblue;
-            border: none;
-            color: white;
-            padding: 10px 10px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 6px 2px;
-            cursor: pointer; 
-        }
-    </style>
 </head>
 
 <body>
@@ -52,7 +25,7 @@
             <input type="checkbox" id="poolPass" value="False">
         </div>
         <br>
-        <input type="button" class="button1" value="Select a Crusie" onclick="selectCrusie()">
+        <input type="button" class="btn btn-info" value="Select a Crusie" onclick="selectCrusie()">
         <br>
         <div id="result">Text will be replaced..</div>
     </form>
@@ -65,7 +38,7 @@
             <label for="priceInput">Enter Price:</label>
             <input type="text" id="priceInput">
         </div>
-        <input type="button" class="button2" value="Update the Crusie" onclick="updateCrusie()">
+        <input type="button" class="btn btn-dark" value="Update the Crusie" onclick="updateCrusie()">
     </form>
     <div id="resultTwo">Text will be replaced for pricing..</div>
 
